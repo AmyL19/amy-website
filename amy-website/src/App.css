@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  background-color: #b2c7c3;
+  height: 100vh;
+  color: white;
+  font-size: 30px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}

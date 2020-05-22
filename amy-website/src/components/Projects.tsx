@@ -10,9 +10,20 @@ export default class Projects extends Component {
   state = {};
 
   render() {
+    const header_style = {
+      fontSize: 30,
+      borderStyle: "solid" as "solid",
+      borderRadius: 5,
+      display: "inline" as "inline",
+      padding: 7,
+      margin: 50,
+      boxShadow: "2px 2px 5px gray" as "0 0 0 0 0",
+    };
+
     return (
       <div className="all_projects">
-        <header>Projects</header>
+        <header style={header_style}>Projects</header>
+        <br></br>
         <Proj
           name="Personal Website"
           img={web_code}
@@ -45,6 +56,11 @@ export default class Projects extends Component {
           link="http://cancerres.aacrjournals.org/content/78/13_Supplement/559"
           link1="https://github.com/AmyL19/DriverFinder"
         />
+        <br></br>
+        &nbsp; &nbsp;
+        <br></br>
+        &nbsp; &nbsp;
+        <br></br>
       </div>
     );
   }

@@ -34,12 +34,38 @@
 
 .proj {
   background: lightgrey;
+  border-radius: 10px;
   width: 450px;
   height: 450px;
   display: inline-flex;
   flex-direction: column;
-  justify-content: space-around;
   padding: 2rem;
   align-items: center;
   margin: 40px;
+}
+
+.exp {
+  width: 50%;
+  margin: 10px;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .column {
+    width: 100%;
+  }
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }

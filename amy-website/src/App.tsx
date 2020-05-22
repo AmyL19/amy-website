@@ -15,12 +15,21 @@ function App() {
     fontWeight: "bold" as "bold",
     color: "#1abc9c",
     padding: "1em 0 .2em 0" as "0 0 0 0",
+    textShadow: "2px 2px 5px gray" as "0 0 0 0 0",
   };
 
   const h2_style = {
     fontSize: 20,
     color: "#4f5568",
-    width: 650,
+    width: 850,
+    margin: "auto" as "auto",
+    padding: "2em 0 0 0" as "0 0 0 0",
+  };
+
+  const h3_style = {
+    fontSize: 13,
+    color: "#4f5568",
+    width: 850,
     margin: "auto" as "auto",
     padding: "2em 0 3em 0" as "0 0 0 0",
   };
@@ -29,12 +38,15 @@ function App() {
     <div className="App">
       <Sidebar />
       <h1 style={h1_style}>Hi, I'm Amy!</h1>
-      <img src={profile} alt="my face" height="200px" width="200px"></img>
+      <img src={profile} alt="my face" height="250px" width="250px"></img>
       <br></br>
       <h2 style={h2_style}>
         Welcome to my page! I am a rising junior studying computer science at
         Carnegie Mellon Unviersity. My goal is to write code that helps people.
-        Check out my experiences and projects :)
+        Check out my experiences and projects :).
+      </h2>
+      <h2 style={h3_style}>
+        Skills: Python, C, Java, HTML, CSS, JavaScript, React, SML
       </h2>
       <Experiences />
       <Projects />

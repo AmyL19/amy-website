@@ -16,14 +16,22 @@ export default class Contact extends Component {
       cursor: "pointer" as "pointer",
     };
 
-    const h1_style = {
+    const header_style = {
       fontSize: 30,
-      color: "White",
+      borderStyle: "solid" as "solid",
+      borderRadius: 5,
+      marginBottom: 50,
+      display: "inline" as "inline",
+      padding: 7,
+      boxShadow: "2px 2px 5px gray" as "0 0 0 0 0",
     };
 
     return (
       <div>
-        <h1 style={h1_style}>Contact Me!</h1>
+        <h1 style={header_style}>Contact Me!</h1>
+        <br></br>
+        &nbsp; &nbsp;
+        <br></br>
         <a href="mailto: ajlu@andrew.cmu.edu" style={link_style}>
           <img src={email} alt="gmail" height="30px" width="30px"></img>
         </a>

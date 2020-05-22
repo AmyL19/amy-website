@@ -8,11 +8,7 @@ export default (props: any) => {
         Home
       </a>
 
-      <a
-        className="menu-item"
-        href="#Experiences"
-        data-nav-section="Experiences"
-      >
+      <a className="menu-item" href="/">
         Experiences
       </a>
 

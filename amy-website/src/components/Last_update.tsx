@@ -1,9 +1,7 @@
 import React from "react";
 
 function Last_update() {
-  const state = {
-    last_update: "",
-  };
+  const state = {};
 
   const styles = {
     fontSize: 12,

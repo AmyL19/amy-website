@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import email from "./gmail.png";
-import linkedin from "./linkedin.png";
-import github from "./github.svg";
-import fb from "./facebook.png";
-import insta from "./instagram.png";
+import email from "./pics/gmail.png";
+import linkedin from "./pics/linkedin.png";
+import github from "./pics/github.svg";
+import fb from "./pics/facebook.png";
+import insta from "./pics/instagram.png";
 
 export default class Contact extends Component {
   state = {};

@@ -6,7 +6,7 @@ import Contact from "./components/Contact";
 import Experiences from "./components/Experiences";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
-import profile from "./circle-cropped.png";
+import profile from "./profile.png";
 import { SSL_OP_TLS_ROLLBACK_BUG } from "constants";
 
 function App() {

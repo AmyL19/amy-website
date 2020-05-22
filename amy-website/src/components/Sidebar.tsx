@@ -1,31 +1,27 @@
 import * as React from "react";
 import { slide as Menu } from "react-burger-menu";
 
-export default (props) => {
+export default (props: any) => {
   return (
-    <Menu>
-      <a className="menu-item" href="/">
+    <Menu {...props}>
+      <a className="menu-item" href="#top">
         Home
       </a>
 
-      <a className="menu-item" href="/laravel">
-        Laravel
+      <a className="menu-item" href="/">
+        Experiences
       </a>
 
-      <a className="menu-item" href="/angular">
-        Angular
+      <a className="menu-item" href="/">
+        Projects
       </a>
 
-      <a className="menu-item" href="/react">
-        React
+      <a className="menu-item" href="/">
+        Resume
       </a>
 
-      <a className="menu-item" href="/vue">
-        Vue
-      </a>
-
-      <a className="menu-item" href="/node">
-        Node
+      <a className="menu-item" href="/">
+        Contact
       </a>
     </Menu>
   );

@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@types/react-burger-menu": "^2.6.1",
     "react-burger-menu": "^2.6.13"
   }
 }

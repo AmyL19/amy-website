@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 
-export default class About extends Component {
+export default class Projects extends Component {
   state = {};
 
   render() {
     return (
       <div>
-        <header>About</header>
+        <header>Projects</header>
       </div>
     );
   }

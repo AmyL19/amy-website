@@ -89,7 +89,7 @@ export default class Experiences extends Component {
           <br></br>
           &nbsp;&nbsp;
           <br></br>
-          <header style={header_style}>Relevant Coursework</header>
+          {/* <header style={header_style}>Relevant Coursework</header>
           <br></br>
           <p style={h_style}> Computer Science </p>
           <li style={li_style}>Introduction to Computer Systems (15-213)</li>
@@ -109,7 +109,7 @@ export default class Experiences extends Component {
           <li style={li_style}>Continental Philosophy (80-253)</li>
           <li style={li_style}>Formal Logic (80-310))</li>
           <li style={li_style}>Introduction to Religion(79-281)</li>
-          <li style={li_style}>Introduction to Philosophy (80-100)</li>
+          <li style={li_style}>Introduction to Philosophy (80-100)</li> */}
         </div>
         <div className="column">
           <header style={header_style}>Community Service</header>

@@ -6,6 +6,7 @@ function Proj(props: any) {
   const title_style = {
     fontSize: 25,
     fontWeight: "bolder" as "bolder",
+    margin: 0,
   };
 
   const subhead_style = {

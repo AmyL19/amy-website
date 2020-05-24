@@ -16,6 +16,7 @@ function App() {
     color: "#1abc9c",
     padding: "1em 0 .2em 0" as "0 0 0 0",
     textShadow: "2px 2px 5px gray" as "0 0 0 0 0",
+    marginTop: 0,
   };
 
   const h2_style = {

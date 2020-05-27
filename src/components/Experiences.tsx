@@ -47,6 +47,12 @@ export default class Experiences extends Component {
             date="May 2020 - "
           />
           <Exp
+            name="Jane Street, Manhattan NY"
+            subhead="INSIGHT program software engineering track"
+            descrp="Spent a week at Jane Street learning about their company, trading, and programming in OCaml."
+            date="January 2019"
+          />
+          <Exp
             name="University of Pennsylvania CIS, Philadelphia PA"
             subhead="Research Intern"
             descrp="Worked with database professor, Dr. Susan Davidson, to develop a Chrome extension to help teachers organize course materials. Used Google Apps Script (JavaScript) to parse and tag Google Drive documents and also build a searchable, sorted question bank for more convenient course material writing."
@@ -57,12 +63,6 @@ export default class Experiences extends Component {
             subhead="Bioinformatics Intern"
             descrp="Led team of high school students to develop software, HccDriverFinder, for early detection of liver cancer (personalized medicine). Performed both programming and bench work."
             date="May 2016 - May 2018"
-          />
-          <Exp
-            name="Jane Street, Manhattan NY"
-            subhead="INSIGHT program software engineering track"
-            descrp="Spent a week at Jane Street learning about their company, trading, and programming in OCaml."
-            date="January 2019"
           />
         </div>
         <div className="column">

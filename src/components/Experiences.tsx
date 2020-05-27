@@ -126,7 +126,7 @@ export default class Experiences extends Component {
             descrp="Participated in ~monthly service days with the Pittsburgh Project. Activities include running food and clothing drives for the homeless, helping elderly people clean their homes, visiting homeless shelters."
           />
           <Exp
-            name="VBS Director"
+            name="VBS co-Director"
             subhead="Trinity Christian Church of Greater Philadelphia"
             date="August 2019 - "
             descrp="Co-directed a full day summer camp with over 100 children at my church. Planned lessons and activities, led team debriefs, and coordinated other logistics with our team."

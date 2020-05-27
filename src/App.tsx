@@ -1,7 +1,7 @@
 import React, { Profiler } from "react";
 import "./App.css";
 import Last_update from "./components/Last_update";
-import Sidebar from "./components/Sidebar";
+import Navigation from "./components/Navigation";
 import Contact from "./components/Contact";
 import Experiences from "./components/Experiences";
 import Projects from "./components/Projects";
@@ -38,21 +38,27 @@ function App() {
 
   return (
     <div className="App">
-      <Sidebar />
+      <Navigation />
       <h1 style={h1_style}>Hi, I'm Amy!</h1>
       <img src={profile} alt="my face" height="250px" width="250px"></img>
       <br></br>
       <h2 style={h2_style}>
         Welcome to my page! I am a rising junior studying computer science at
-        Carnegie Mellon Unviersity. My goal is to write code that helps people.
-        Check out my experiences and projects :).
+        Carnegie Mellon University. My goal is to write code that helps people.
+        Check out my experiences and projects :)
       </h2>
       <h2 style={h3_style}>
         Skills: Python, C, Java, HTML, CSS, JavaScript, React, SML
       </h2>
+      <br></br>
+      &nbsp;&nbsp;
+      <a id="Experiences"></a>
       <Experiences />
+      <a id="Projects"></a>
       <Projects />
+      <a id="Resume"></a>
       <Resume />
+      <a id="Contact"></a>
       <Contact />
       <Last_update />
     </div>

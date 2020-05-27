@@ -36,6 +36,11 @@ export default class Experiences extends Component {
           <header style={header_style}>Experiences</header>
           <br></br>
           <Exp
+            name="Zensors, Pittsburgh PA"
+            subhead="Software development intern"
+            date="June 2020 - "
+          />
+          <Exp
             name="Carnegie Mellon University SCS, Pittsburgh PA"
             subhead="Course notes writer"
             descrp="Worked with database professor, Dr. Andy Pavlo, to write course notes for his course 15-445."
@@ -115,16 +120,16 @@ export default class Experiences extends Component {
           <header style={header_style}>Community Service</header>
           <br></br>
           <Exp
-            name="Brain Exercise Initiative volunteer"
-            subhead="Virtual Connectiosn for Alzheimer's patients"
-            date="May 2020 - "
-            descrp="Participated in weekly virtual meetups with Alzheimer's patients to practice simple math and reading exercises to improve memory function."
-          />
-          <Exp
-            name="Pittsburgh Project volunteer"
+            name="Pittsburgh Project Volunteer"
             subhead="Homeless and community service org in Pittsburgh"
             date="October 2019 - "
             descrp="Participated in ~monthly service days with the Pittsburgh Project. Activities include running food and clothing drives for the homeless, helping elderly people clean their homes, visiting homeless shelters."
+          />
+          <Exp
+            name="VBS Director"
+            subhead="Trinity Christian Church of Greater Philadelphia"
+            date="August 2019 - "
+            descrp="Co-directed a full day summer camp with over 100 children at my church. Planned lessons and activities, led team debriefs, and coordinated other logistics with our team."
           />
           <Exp
             name="FOCUS missionary"
@@ -138,14 +143,14 @@ export default class Experiences extends Component {
             date="September 2018 - May 2019"
             descrp="Took handwritten course notes and uploaded them to a portal for students with disabilities to download."
           />
-          <Exp
+          {/* <Exp
             name="Philly Missions"
             subhead="Philadelphia, PA"
             date="March 2019"
             descrp="Spent 1.5 weeks in Kensington doing homeless outreach, teaching kids at a Vacation Bible School, and doing construction work at a church."
-          />
+          /> */}
           <Exp
-            name="English teacher and summer missionary"
+            name="English Teacher and Summer Missionary"
             subhead="Taichung, Taiwan"
             date="July 2018, 2019"
             descrp="Spent 1.5 weeks in Taichung teaching english and bible lessons to young children. "

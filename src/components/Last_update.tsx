@@ -17,7 +17,9 @@ function Last_update() {
 }
 
 function format_Last_update() {
-  var today = new Date().toJSON().slice(0, 10);
+  var today = new Date().toLocaleString("en-US", {
+    timeZone: "America/New_York",
+  });
   return "Last updated: " + today;
 }
 

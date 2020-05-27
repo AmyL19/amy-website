@@ -1,6 +1,5 @@
 import React from "react";
 import "../App.css";
-import { bubble } from "react-burger-menu";
 
 function Exp(props: any) {
   const title_style = {

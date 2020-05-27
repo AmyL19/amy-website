@@ -30,7 +30,9 @@ export default class Resume extends Component {
         <br></br>
         &nbsp;&nbsp;
         <a style={a_style}>click to download resume:</a>
-        <a href={"al_resume.pdf"} download>
+        <a
+          onClick={() => window.open(require("./pdfs/al_resume.pdf"), "_none")}
+        >
           <img src={pdf} alt="pdf logo" height="30px" width="30px"></img>
         </a>
         <br></br>

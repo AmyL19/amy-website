@@ -31,7 +31,9 @@ class Navigation extends React.Component<{}, { menuOpen: boolean }> {
           isOpen={this.state.menuOpen}
           onStateChange={(state: any) => this.handleStateChange(state)}
         >
-          <a onClick={() => this.closeMenu()}></a>
+          <a onClick={() => this.closeMenu()} href="#Home">
+            Home
+          </a>
           <a onClick={() => this.closeMenu()} href="#Experiences">
             Experiences
           </a>

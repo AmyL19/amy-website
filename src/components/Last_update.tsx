@@ -4,7 +4,7 @@ function Last_update() {
   const state = {};
 
   const styles = {
-    fontSize: 12,
+    fontSize: 16,
   };
 
   return (

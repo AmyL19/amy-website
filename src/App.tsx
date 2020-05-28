@@ -39,7 +39,9 @@ function App() {
   return (
     <div className="App">
       <Navigation />
-      <h1 style={h1_style}>Hi, I'm Amy!</h1>
+      <h1 style={h1_style} id="Home">
+        Hi, I'm Amy!
+      </h1>
       <img src={profile} alt="my face" height="250px" width="250px"></img>
       <br></br>
       <h2 style={h2_style}>

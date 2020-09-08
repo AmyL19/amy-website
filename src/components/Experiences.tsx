@@ -1,9 +1,6 @@
 import React, { Component, useState } from "react";
 import Exp from "./Exp";
-import App from "../App";
 import "../App.css";
-import { SSL_OP_SINGLE_DH_USE } from "constants";
-import { findRenderedComponentWithType } from "react-dom/test-utils";
 
 const Experiences = () => {
   const header_style = {
@@ -17,19 +14,6 @@ const Experiences = () => {
     display: "inline-flex" as "inline-flex",
     boxShadow: "2px 2px 5px gray" as "0 0 0 0 0",
   };
-  const li_style = {
-    fontSize: 13,
-    color: "#4f5568",
-    textAlign: "left" as "left",
-    marginBottom: 10,
-  };
-
-  const h_style = {
-    fontSize: 13,
-    color: "#4f5568",
-    fontWeight: "bold" as "bold",
-  };
-
 
   return (
     <div className="row">

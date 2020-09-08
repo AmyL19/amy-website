@@ -92,7 +92,7 @@ const Experiences = () => {
         <br></br>
       </div>
       <div className="column">
-        <header style={header_style}>Community Service</header>
+        <header style={header_style}>Volunteering</header>
         <br></br>
         <Exp
           name="Pittsburgh Project Volunteer"

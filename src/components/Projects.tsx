@@ -4,7 +4,7 @@ import "../App.css";
 import tc_icon from "./pics/textcrafter.png";
 import df_icon from "./pics/driverfinder.png";
 import foodcmu from "./pics/foodcmu.png";
-import web_code from "./pics/web_code.png";
+import quarantine_challenge from "./pics/quarantine_challenge.png";
 
 export default class Projects extends Component {
   state = {};
@@ -12,11 +12,13 @@ export default class Projects extends Component {
   render() {
     const header_style = {
       fontSize: 30,
-      borderStyle: "solid" as "solid",
+      background: "white",
+      color: "#4f5568",
       borderRadius: 5,
-      display: "inline" as "inline",
+      alignContent: "center" as "center",
+      margin: 20,
       padding: 7,
-      margin: 50,
+      display: "inline-flex" as "inline-flex",
       boxShadow: "2px 2px 5px gray" as "0 0 0 0 0",
     };
 
@@ -25,11 +27,12 @@ export default class Projects extends Component {
         <header style={header_style}>Projects</header>
         <br></br>
         <Proj
-          name="Personal Website"
-          img={web_code}
-          date="May 2022 - "
-          descrp="(AKA this website!) Written using React and Typescript"
-          link="https://github.com/AmyL19/amy-website"
+          name="ACF Quarantine Challenge"
+          subhead="Asian Christian Fellowship"
+          img={quarantine_challenge}
+          date="May 2020 - September 2020"
+          descrp="The ACF Quarantine Challenge is an app meant to help connect students in ACF over quarantine by having them participate in challenges and earn points for their team. The app was made through Ruby on Rails. I contributed to the design and front-end views of the app. "
+          link="https://github.com/dyuan0226/ACF-Quarantine-Challenge"
         />
         <Proj
           name="TextCrafter"

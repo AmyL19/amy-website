@@ -1,5 +1,6 @@
-import React from "react";
+import React , { useState} from "react";
 import "../App.css";
+import { NONAME } from "dns";
 
 function Exp(props: any) {
   const title_style = {
@@ -28,12 +29,18 @@ function Exp(props: any) {
     marginBottom: 30,
   };
 
+  const hidden = {
+    display: "none",
+  }
+
+  const [isHidden, setHidden] = useState(true);
+
   return (
-    <div className="exp">
-      <h3 style={title_style}>{props.name}</h3>
-      <h4 style={subhead_style}>{props.subhead}</h4>
-      <p style={date_style}>{props.date}</p>
-      <p style={des_style}>{props.descrp}</p>
+    <div className="exp" onMouseEnter={() => setHidden(isHidden ? false : true)} onMouseLeave={() => setHidden(isHidden ? false : true)}>
+      <h3 style={isHidden ? title_style : hidden}>{props.name}</h3>
+      <h4 style={isHidden ? subhead_style : hidden}>{props.subhead}</h4>
+      <p style={isHidden ? date_style : hidden}>{props.date}</p>
+      <p style={isHidden ? hidden : des_style}>{props.descrp}</p>
     </div>
   );
 }

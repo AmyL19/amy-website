@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import "../App.css";
 import { bubble } from "react-burger-menu";
+import { NONAME } from "dns";
 
 function Proj(props: any) {
   const title_style = {
@@ -31,19 +32,25 @@ function Proj(props: any) {
     cursor: "pointer" as "pointer",
   };
 
+  const hidden = {
+    display: "none",
+  }
+
+  const [isHidden, setHidden] = useState(true);
+
   return (
-    <div className="proj">
+    <div className="proj" onMouseEnter={() => setHidden(isHidden ? false : true)} onMouseLeave={() => setHidden(isHidden ? false : true)}>
       <h3 style={title_style}>{props.name}</h3>
       <h4 style={subhead_style}>{props.subhead}</h4>
-      <div>
-        <img src={props.img} height="90%" width="50%"></img>
+      <div style={isHidden ? undefined : hidden}>
+        <img src={props.img} height="90%" width="90%"></img>
       </div>
-      <p style={date_style}>{props.date}</p>
-      <p style={des_style}>{props.descrp}</p>
-      <a href={props.link} style={link_style}>
+      <p style={isHidden ? hidden : date_style }>{props.date}</p>
+      <p style={isHidden ? hidden : des_style}>{props.descrp}</p>
+      <a href={props.link} style={isHidden ? hidden : link_style}>
         {props.link}
       </a>
-      <a href={props.link1} style={link_style}>
+      <a href={props.link1} style={isHidden ? hidden : link_style}>
         {props.link1}
       </a>
     </div>

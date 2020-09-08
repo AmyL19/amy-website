@@ -8,6 +8,10 @@ import Experiences from "./components/Experiences";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 import profile from "./components/pics/profile.png";
+import amber from "./components/pics/amber.png";
+import profile1 from "./components/pics/profile1.png";
+import cmu from "./components/pics/cmu.png";
+import click_to_change from "./components/pics/click_to_change.png";
 import { SSL_OP_TLS_ROLLBACK_BUG } from "constants";
 import { resolve } from "dns";
 
@@ -38,17 +42,10 @@ function App() {
     padding: "2em 0 3em 0" as "0 0 0 0",
   };
 
-  function refreshPage() {
-    window.location.reload(false);
-    setTimeout('', 5000);
-  }
-
-  function startAnimation() {
-    document.getElementById("text_animation")!.style.animation = "dash 4.5s linear paused";
-    document.getElementById("text_animation")!.style.animation = "dash 4.5s linear running";
-  }
-
   const [state, setState] = React.useState("path");
+
+  const images = [profile, profile1, amber, cmu]
+  const [image, setImage] = React.useState(0);
 
   return (
     <div className="App">
@@ -70,7 +67,8 @@ function App() {
             </g>
         </g>
       </svg>
-      <img className="profile"src={profile} alt="my face" height="250px" width="250px"></img>
+      <img className="clickToChange" src={click_to_change} width="150px"></img>
+      <img className="profile" onClick={() => setImage((image + 1) % 4)} src={images[image]} alt="my face" height="250px" width="250px"></img>
       <br></br>
       <h2 style={h2_style}>
         Welcome to my page! I am a junior studying computer science at

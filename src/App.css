@@ -11,7 +11,7 @@
 
 svg {
   position: absolute;
-  top: 24%;
+  top: 22%;
   left: 50%;
   width: 740px;
   height: 140px;
@@ -61,6 +61,7 @@ svg {
 .profile {
   margin-top: 280px;
 }
+
 
 .sitemessage {
   white-space: nowrap;

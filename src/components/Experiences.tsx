@@ -37,16 +37,25 @@ const Experiences = () => {
         <header style={header_style}>Experiences</header>
         <br></br>
         <Exp
+          name="CMU Database Group"
+          subhead="Research intern"
+          date="September 2020 -"
+          descrp="Contributed to the research and contstruction of Noise Page, a self-driving database management system"
+          link="https://beta.noise.page/"
+        />
+        <Exp
           name="Zensors"
           subhead="Software engineering intern"
           date="June 2020 - August 2020"
           descrp="Added features to Zensor's visual sensing platform UI. Projects include streamlining the notifications feature of the app and creating a new time selector component."
+          link="https://www.zensors.com/"
         />
         <Exp
           name="Carnegie Mellon University"
           subhead="Course notes writer"
-          descrp="Worked with database professor, Dr. Andy Pavlo, to write course notes for his course 15-445."
-          date="May 2020 - "
+          descrp="Worked with database professor, Dr. Andy Pavlo, to write lecture notes for the course Introduction to Database Systems (15-445)."
+          date="May 2020 - August 2020"
+          link="https://15445.courses.cs.cmu.edu/fall2020/schedule.html"
         />
         <Exp
           name="Jane Street"

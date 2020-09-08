@@ -43,10 +43,14 @@ function App() {
     window.location.reload(false);
   }
 
+  function startAnimation() {
+    document.getElementById("text_animation")!.style.animation = "dash 4.5s linear play";
+}
+
   return (
     <div className="App">
       <Navigation />
-      <svg viewBox="0 0 52 10" onClick={refreshPage}>
+      <svg id="text_animation" viewBox="0 0 52 10" onClick={refreshPage}>
         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
             <g id="Artboard" transform="translate(-17.00000, -10.000000)">
                 <g id="Group-2" transform="translate(9.000000, 7.000000)">

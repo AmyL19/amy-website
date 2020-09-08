@@ -29,6 +29,12 @@ function Exp(props: any) {
     marginBottom: 30,
   };
 
+  const link_style = {
+    fontSize: 10,
+    color: "blue",
+    cursor: "pointer" as "pointer",
+  };
+
   const hidden = {
     display: "none",
   }
@@ -41,6 +47,9 @@ function Exp(props: any) {
       <h4 style={isHidden ? subhead_style : hidden}>{props.subhead}</h4>
       <p style={isHidden ? date_style : hidden}>{props.date}</p>
       <p style={isHidden ? hidden : des_style}>{props.descrp}</p>
+      <a href={props.link} style={isHidden ? hidden : link_style}>
+        {props.link}
+      </a>
     </div>
   );
 }

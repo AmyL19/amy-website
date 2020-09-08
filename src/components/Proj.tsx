@@ -8,11 +8,13 @@ function Proj(props: any) {
     fontSize: 25,
     fontWeight: "bolder" as "bolder",
     margin: 0,
+    color: "#4f5568",
   };
 
   const subhead_style = {
     fontSize: 16,
     fontStyle: "italic" as "italic",
+    color: "#4f5568",
   };
 
   const date_style = {

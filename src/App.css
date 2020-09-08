@@ -128,7 +128,6 @@ svg {
 }
 
 .proj {
-  background: lightgrey;
   border-radius: 10px;
   width: 400px;
   height: 400px;
@@ -137,7 +136,6 @@ svg {
   padding: 2rem;
   align-items: center;
   margin: 40px;
-  filter: drop-shadow( 3px 3px 2px gray);
 }
 
 .exp {

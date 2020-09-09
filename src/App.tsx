@@ -54,12 +54,12 @@ function App() {
                 <g id="Group-2" transform="translate(9.000000, 7.000000)">
                     <g id="Group" transform="translate(4.000000, 3.500000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
                         <path className={state} transform="translate(39, 7) scale(1, -1)" d="M10,6.5 L10,2.5 C10,1.3954305 10.8954305,0.5 12,0.5 C13.1045695,0.5 14,1.3954305 14,2.5 L14,6.5 L14,6.5 " id="u" stroke="#54DEBB"></path>
-                        <polyline className={state} id="l" stroke="#D878C2" points="42 0.5 42 6.5 45 6.5"></polyline>
-                        <path className={state} d="M20,3.5 L20,6.5" id="x3" stroke="#FE8393" transform="translate(11, 0)"></path>
-                        <path className={state}d="M22,0.5 L20,3.5" id="x2" stroke="#FE8393" transform="translate(11, 0)"></path>
-                        <path className={state} d="M18,0.5 L20,3.5" id="x1" stroke="#FE8393" transform="translate(11, 0)"></path>
-                        <polyline className={state} id="m" stroke="#FFBD41" transform="translate(21.8, 3.500000) scale(-1, 1) translate(-3.000000, -3.500000) " points="6 6.5 6 0.5 3 3.5 3.66373598e-15 0.5 3.66373598e-15 6.5"></polyline>
-                        <path className={state} d="M10,6.5 L10,2.5 C10,1.3954305 10.8954305,0.5 12,0.5 C13.1045695,0.5 14,1.3954305 14,2.5 L14,6.5 L14,6.5 L14,4.5 L10,4.5" id="a" stroke="#FF8457"></path>
+                        <polyline className={state} id="l" stroke="#54DEBB" points="42 0.5 42 6.5 45 6.5"></polyline>
+                        <path className={state} d="M20,3.5 L20,6.5" id="x3" stroke="#54DEBB" transform="translate(11, 0)"></path>
+                        <path className={state}d="M22,0.5 L20,3.5" id="x2" stroke="#54DEBB" transform="translate(11, 0)"></path>
+                        <path className={state} d="M18,0.5 L20,3.5" id="x1" stroke="#54DEBB" transform="translate(11, 0)"></path>
+                        <polyline className={state} id="m" stroke="#54DEBB" transform="translate(21.8, 3.500000) scale(-1, 1) translate(-3.000000, -3.500000) " points="6 6.5 6 0.5 3 3.5 3.66373598e-15 0.5 3.66373598e-15 6.5"></polyline>
+                        <path className={state} d="M10,6.5 L10,2.5 C10,1.3954305 10.8954305,0.5 12,0.5 C13.1045695,0.5 14,1.3954305 14,2.5 L14,6.5 L14,6.5 L14,4.5 L10,4.5" id="a" stroke="#54DEBB"></path>
                     </g>
                 </g>
             </g>

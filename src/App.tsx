@@ -12,8 +12,6 @@ import amber from "./components/pics/amber.png";
 import profile1 from "./components/pics/profile1.png";
 import cmu from "./components/pics/cmu.png";
 import click_to_change from "./components/pics/click_to_change.png";
-import { SSL_OP_TLS_ROLLBACK_BUG } from "constants";
-import { resolve } from "dns";
 
 function App() {
   const h1_style = {

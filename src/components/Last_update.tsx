@@ -20,7 +20,7 @@ function format_Last_update() {
   var today = new Date().toLocaleString("en-US", {
     timeZone: "America/New_York",
   });
-  return "Last updated: " + today;
+  return "Last updated: September 16, 2020";
 }
 
 export default Last_update;

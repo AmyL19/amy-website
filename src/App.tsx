@@ -38,9 +38,6 @@ function App() {
 
   const [state, setState] = React.useState("path");
 
-  const images = [profile]
-  const [image, setImage] = React.useState(0);
-
   return (
     <div className="App">
       <Navigation />
@@ -61,7 +58,7 @@ function App() {
             </g>
         </g>
       </svg>
-      <img className="profile" onClick={() => setImage((image + 1) % 4)} src={images[image]} alt="my face" height="250px" width="250px"></img>
+      <img className="profile" src={profile} alt="my face" height="250px" width="250px"></img>
       <br></br>
       <h2 style={h2_style}>
         Welcome to my page! I am a junior studying computer science at

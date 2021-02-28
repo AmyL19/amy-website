@@ -7,7 +7,7 @@ import Contact from "./components/Contact";
 import Experiences from "./components/Experiences";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
-import profile from "./components/pics/profile.png";
+import profile1 from "./components/pics/profile1.png";
 
 function App() {
   const h1_style = {
@@ -58,7 +58,7 @@ function App() {
             </g>
         </g>
       </svg>
-      <img className="profile" src={profile} alt="my face" height="250px" width="250px"></img>
+      <img className="profile" src={profile1} alt="my face" height="250px" width="250px"></img>
       <br></br>
       <h2 style={h2_style}>
         Welcome to my page! I am a junior studying computer science at

@@ -8,10 +8,6 @@ import Experiences from "./components/Experiences";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 import profile from "./components/pics/profile.png";
-import amber from "./components/pics/amber.png";
-import profile1 from "./components/pics/profile1.png";
-import cmu from "./components/pics/cmu.png";
-import click_to_change from "./components/pics/click_to_change.png";
 
 function App() {
   const h1_style = {
@@ -42,7 +38,7 @@ function App() {
 
   const [state, setState] = React.useState("path");
 
-  const images = [profile, profile1, amber, cmu]
+  const images = [profile]
   const [image, setImage] = React.useState(0);
 
   return (
@@ -65,13 +61,12 @@ function App() {
             </g>
         </g>
       </svg>
-      <img className="clickToChange" src={click_to_change} width="150px"></img>
       <img className="profile" onClick={() => setImage((image + 1) % 4)} src={images[image]} alt="my face" height="250px" width="250px"></img>
       <br></br>
       <h2 style={h2_style}>
         Welcome to my page! I am a junior studying computer science at
         Carnegie Mellon University. My goal is to write code that helps people.
-        Check out my experiences and projects :)
+        Check out my experiences and projects.
       </h2>
       <h2 style={h3_style}>
         Skills: Python, C, HTML, CSS, JavaScript, React, Go, Java, SML

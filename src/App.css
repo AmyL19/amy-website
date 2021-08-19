@@ -150,6 +150,19 @@ svg {
   }
 }
 
+.flexChild {
+  flex: 2 1 50%;
+}
+
+.smallTable {
+  max-width: 800px;
+}
+
+@media only screen and (max-width: 780px) {
+  .smallTable {
+    max-width: 400px;
+  }
+}
 .sitemessage {
   white-space: nowrap;
   animation: floatText;

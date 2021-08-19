@@ -22,6 +22,12 @@ const Experiences = () => {
     margin: "auto" as "auto",
   }
 
+  const hiddenLinkStyle = {
+    position: "absolute" as "absolute",
+    left: "0px",
+  }
+
+
   return (
       <div>
         <header style={header_style}>Experiences</header>
@@ -87,6 +93,7 @@ const Experiences = () => {
 
         <div>
           <header style={header_style}>Activities</header>
+          <a id="Activities" style={hiddenLinkStyle}></a>
           <br></br>
 
           <div>
@@ -135,6 +142,7 @@ const Experiences = () => {
         </div>
         <div>
           <header style={header_style}>Volunteering</header>
+          <a id="Volunteering" style={hiddenLinkStyle}></a>
           <br></br>
           <table style={tableStyle}>
           <tr>

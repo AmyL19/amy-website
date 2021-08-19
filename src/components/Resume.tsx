@@ -19,7 +19,7 @@ export default class Resume extends Component {
       color: "#4f5568",
       borderRadius: 5,
       alignContent: "center" as "center",
-      padding: 7,
+      paddingTop: "200px",
       display: "inline-flex" as "inline-flex",
       fontFamily: "SpaceGrotesk-SemiBold",
       margin: 50,

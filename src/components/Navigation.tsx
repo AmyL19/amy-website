@@ -37,6 +37,12 @@ class Navigation extends React.Component<{}, { menuOpen: boolean }> {
           <a onClick={() => this.closeMenu()} href="#Experiences">
             Experiences
           </a>
+          <a onClick={() => this.closeMenu()} href="#Activities">
+            Activities
+          </a>
+          <a onClick={() => this.closeMenu()} href="#Volunteering">
+            Volunteering
+          </a>
           <a onClick={() => this.closeMenu()} href="#Projects">
             Projects
           </a>

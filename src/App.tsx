@@ -61,9 +61,9 @@ function App() {
       <img className="profile" src={profile1} alt="my face" height="250px" width="250px"></img>
       <br></br>
       <h2 style={h2_style}>
-        Welcome to my page! I am a junior studying computer science at
-        Carnegie Mellon University. My goal is to write code that helps people.
-        Check out my experiences and projects.
+        Welcome to my page! I am a senior studying computer science at Carnegie Mellon University.
+        I am interested in full stack software engineering and also enjoy learning about philosophy and logic.
+        My goal is to write code that helps people.
       </h2>
       <h2 style={h3_style}>
         Skills: Python, C, HTML, CSS, JavaScript, React, Go, Java, SML

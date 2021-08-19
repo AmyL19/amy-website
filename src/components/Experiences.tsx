@@ -21,11 +21,16 @@ const Experiences = () => {
         <header style={header_style}>Experiences</header>
         <br></br>
         <Exp
-          name="CMU Database Group"
-          subhead="Research intern"
-          date="September 2020 -"
-          descrp="Contributed to the research and contstruction of Noise Page, a self-driving database management system"
-          link="https://beta.noise.page/"
+          name="Carnegie Mellon University"
+          subhead="15-210 Teaching Assistant"
+          date="August 2021 - December 2021"
+          descrp="Led recitations, graded homeworks and e􏰇ams, and held of􏰈ce hours for the course Parallel and Sequential Data Structures and Algorithms."
+        />
+        <Exp
+          name="Expedia Group"
+          subhead="Software engineering intern"
+          date="June 2021 - August 2021"
+          descrp="Automated Expedia's Recommendations Platform performance testing framework by developing a pipeline for deploying and running tests on their APIs and models."
         />
         <Exp
           name="Zensors"
@@ -67,13 +72,13 @@ const Experiences = () => {
           name="Asian Christian Fellowship"
           subhead="Ministry Team Leader"
           descrp="Planned fellowship events, led a cell group, prayed and casted vision for the fellowship, and discipled other college students."
-          date="January 2018 - "
+          date="January 2018 - Jun 2021"
         />
         <Exp
           name="PCC Coding Camp"
           subhead="Pittsburgh Chinese Church"
           descrp="Started and directed a virtual Coding Camp​ of about 40 kids at Pittsburgh Chinese Church. The kids were broken up into a beginners class (Scratch) and an advanced class (Python)."
-          date="August 2020"
+          date="August 2020, 2021"
         />
         <Exp
           name="INSPIRE, CMU Interfaith Spirituality Embassy"
@@ -94,6 +99,11 @@ const Experiences = () => {
       <div className="column">
         <header style={header_style}>Volunteering</header>
         <br></br>
+        <Exp
+          name="Coding Camp"
+          date="August 2020, 2021"
+          descrp="Founded and directed a virtual Coding Camp for children at Pittsburgh Chinese Church. Worked with a team of 15 other college students to hold three classes teaching coding to kids from third grade to high school."
+        />
         <Exp
           name="Pittsburgh Project Volunteer"
           date="October 2019 - "

@@ -70,9 +70,84 @@ svg {
   }
 } */
 
+
+.intro {
+  width: 30%;
+  text-align: left;
+  margin-top: 12%;
+  margin-left: 1.5%;
+}
+
+.picture {
+  width:60%;
+  margin-left: 5%;
+  max-width: 750px;
+  margin-top: 7%;
+}
+
 .profile {
-  margin-left: 50px;
-  object-fit: cover;
+  width: 100%;
+  /* margin-left: auto; */
+  float: left;
+}
+
+.h2Style {
+  font-size:1.5vw;
+  color: black;
+  top: 20vw;
+  padding-left: 0.6vw;
+}
+
+@media only screen and (max-width: 700px) {
+  .profile {
+    padding-top: 4%;
+    margin: auto;
+    float: none;
+  }
+  .intro {
+    margin: auto;
+    /* padding-left: 5%; */
+    width: 82%;
+    text-align: center;
+  }
+  .picture {
+    width: 80%;
+    margin: auto;
+  }
+  .h2Style {
+    font-size:2vw;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .picture{
+    margin-left: 4.5%;
+    margin-top: 3%;
+
+  }
+  .intro {
+    margin-top: 12%;
+    margin-left: 1.5%;
+    width: 30%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .picture {
+    margin-top: 0%;
+  }
+  .intro {
+    margin-top: 10%;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .picture {
+    margin-left: 6%;
+  }
+  .intro {
+    width: 35%;
+  }
 }
 
 .sitemessage {

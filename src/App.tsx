@@ -13,36 +13,20 @@ import { table } from "console";
 function App() {
   const h1_style = {
     color: "#00cc99",
-    fontSize: "13vw",
-    textAlign: "left" as "left",
-    paddingLeft: "30%",
+    fontSize: "12vw",
+    // textAlign: "left" as "left",
     fontFamily: "SpaceGrotesk-Bold",
-    margin: "0px",
-  };
-
-  const h2_style = {
-    fontSize: 18,
-    color: "black",
-    weight: "700",
-    textAlign: "left" as "left",
-    paddingLeft: "30%",
-    paddingRight: "40px",
-    top: "20vw",
-    // width: 850,
-    // margin: "auto" as "auto",
-    // padding: "2em 0 0 0" as "0 0 0 0",
-  };
-
-  const h3_style = {
-    fontSize: 13,
-    color: "white",
-    width: 850,
-    margin: "auto" as "auto",
-    padding: "2em 0 3em 0" as "0 0 0 0",
   };
 
   const tableStyle= {
-    paddingTop: "135px",
+    paddingTop: "140px",
+    paddingBottom: "200px",
+    // textAlign: "left" as "left",
+  }
+
+  const col1Style = {
+    width: "700px",
+    textAlign: "left" as "left",
   }
 
   const [state, setState] = React.useState("path");
@@ -68,6 +52,19 @@ function App() {
         </g>
       </svg> */}
       <a id="Home"></a>
+      <div className="d-inline-flex flex-wrap flex-row justify-content-left" style={tableStyle}>
+        <div className="p-4.5 picture">
+          <img className="profile" src={profile2} alt="my face"></img>
+        </div>
+        <div className="p-2 intro">
+          <h1 style={h1_style}>Hello</h1>
+          <p className="h2Style">
+                I'm Amy, a senior studying computer science at Carnegie Mellon University.
+                I am interested in full stack software engineering and also enjoy learning about philosophy and logic.
+          </p>
+        </div>
+      </div>
+{/*
       <div className="element">
         <table style={tableStyle}>
           <tr>
@@ -87,7 +84,7 @@ function App() {
         <h3 style={h3_style}>
           Skills: Python, C, HTML, CSS, JavaScript, React, Go, Java, SML
         </h3>
-      </div>
+      </div> */}
 
 
       <br></br>

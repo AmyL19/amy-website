@@ -164,7 +164,7 @@ const Experiences = () => {
             <Exp
               name="VBS co-Director"
               subhead="Trinity Christian Church of Greater Philadelphia"
-              date="August 2019 - "
+              date="August 2019 "
               descrp="Co-directed a full day summer camp with over 100 children at my church. Planned lessons and activities, led team debriefs, and coordinated other logistics with our team."
             />
           </td>

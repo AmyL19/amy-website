@@ -74,14 +74,14 @@ svg {
 .intro {
   width: 30%;
   text-align: left;
-  margin-top: 12%;
+  margin-top: 15%;
   margin-left: 1.5%;
 }
 
 .picture {
   width:60%;
   margin-left: 5%;
-  max-width: 750px;
+  max-width: 700px;
   margin-top: 7%;
 }
 
@@ -134,19 +134,20 @@ svg {
 
 @media only screen and (min-width: 1200px) {
   .picture {
-    margin-top: 0%;
+    margin-top: 1%;
+    padding-right: 2%;
   }
   .intro {
-    margin-top: 10%;
+    margin-top: 8%;
   }
 }
 
 @media only screen and (min-width: 1300px) {
   .picture {
-    margin-left: 6%;
+    margin-left: 7%;
   }
   .intro {
-    width: 35%;
+    width: 38%;
   }
 }
 
@@ -163,6 +164,7 @@ svg {
     max-width: 400px;
   }
 }
+
 .sitemessage {
   white-space: nowrap;
   animation: floatText;

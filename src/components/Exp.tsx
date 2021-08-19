@@ -7,12 +7,14 @@ function Exp(props: any) {
     fontSize: 25,
     fontWeight: "bolder" as "bolder",
     margin: 0,
+    width: "300px"
   };
 
   const subhead_style = {
     fontSize: 16,
     fontStyle: "italic" as "italic",
     margin: 0,
+    width: "300px",
   };
 
   const date_style = {
@@ -23,16 +25,19 @@ function Exp(props: any) {
   };
 
   const des_style = {
-    fontSize: 13,
+    fontSize: 15,
     color: "#4f5568",
     marginTop: 0,
     marginBottom: 30,
+    width: "300px",
+
   };
 
   const link_style = {
-    fontSize: 10,
+    fontSize: 13,
     color: "blue",
     cursor: "pointer" as "pointer",
+    width: "300px",
   };
 
   const hidden = {

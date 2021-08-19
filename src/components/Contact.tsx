@@ -22,10 +22,14 @@ export default class Contact extends Component {
       color: "#4f5568",
       borderRadius: 5,
       alignContent: "center" as "center",
-      margin: 10,
       padding: 7,
       display: "inline-flex" as "inline-flex",
-      boxShadow: "2px 2px 5px gray" as "0 0 0 0 0",
+      fontFamily: "SpaceGrotesk-SemiBold",
+      margin: 50,
+      float: "left" as "left",
+      marginBottom: 0,
+      width: "100%",
+      // boxShadow: "2px 2px 5px gray" as "0 0 0 0 0",
     };
 
     return (

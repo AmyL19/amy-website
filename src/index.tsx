@@ -3,6 +3,11 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
+import './components/fonts/SpaceGrotesk-Regular.ttf';
+import './components/fonts/SpaceGrotesk-Bold.ttf';
+import './components/fonts/SpaceGrotesk-SemiBold.ttf';
+
+
 
 ReactDOM.render(
   <React.StrictMode>

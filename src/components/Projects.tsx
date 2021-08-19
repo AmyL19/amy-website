@@ -16,10 +16,14 @@ export default class Projects extends Component {
       color: "#4f5568",
       borderRadius: 5,
       alignContent: "center" as "center",
-      margin: 20,
       padding: 7,
+      margin: 50,
+      marginBottom: 0,
+      width: "100%",
       display: "inline-flex" as "inline-flex",
-      boxShadow: "2px 2px 5px gray" as "0 0 0 0 0",
+      float: "left" as "left",
+      fontFamily: "SpaceGrotesk-SemiBold"
+      // boxShadow: "2px 2px 5px gray" as "0 0 0 0 0",
     };
 
     return (

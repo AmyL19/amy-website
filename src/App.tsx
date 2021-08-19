@@ -7,41 +7,51 @@ import Contact from "./components/Contact";
 import Experiences from "./components/Experiences";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
-import profile1 from "./components/pics/profile1.png";
+import profile2 from "./components/pics/profile2.jpg";
+import { table } from "console";
 
 function App() {
   const h1_style = {
-    fontSize: 100,
-    fontWeight: "bold" as "bold",
-    color: "white",
-    padding: "1em 0 .2em 0" as "0 0 0 0",
-    textShadow: "2px 2px 5px gray" as "0 0 0 0 0",
-    marginTop: 0,
-    marginBottom: 15,
+    color: "#00cc99",
+    fontSize: "13vw",
+    textAlign: "left" as "left",
+    paddingLeft: "30%",
+    fontFamily: "SpaceGrotesk-Bold",
+    margin: "0px",
   };
 
   const h2_style = {
-    fontSize: 20,
-    color: "#4f5568",
-    width: 850,
-    margin: "auto" as "auto",
-    padding: "2em 0 0 0" as "0 0 0 0",
+    fontSize: 18,
+    color: "black",
+    weight: "700",
+    textAlign: "left" as "left",
+    paddingLeft: "30%",
+    paddingRight: "40px",
+    top: "20vw",
+    // width: 850,
+    // margin: "auto" as "auto",
+    // padding: "2em 0 0 0" as "0 0 0 0",
   };
 
   const h3_style = {
     fontSize: 13,
-    color: "#4f5568",
+    color: "white",
     width: 850,
     margin: "auto" as "auto",
     padding: "2em 0 3em 0" as "0 0 0 0",
   };
+
+  const tableStyle= {
+    paddingTop: "135px",
+  }
+
 
   const [state, setState] = React.useState("path");
 
   return (
     <div className="App">
       <Navigation />
-      <svg id="text_animation" viewBox="0 0 52 10" className={state} onMouseLeave={() => setState("")} onMouseEnter={() => setState("path")}>
+      {/* <svg id="text_animation" viewBox="0 0 52 10" className={state} onMouseLeave={() => setState("")} onMouseEnter={() => setState("path")}>
         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
             <g id="Artboard" transform="translate(-17.00000, -10.000000)">
                 <g id="Group-2" transform="translate(9.000000, 7.000000)">
@@ -57,17 +67,29 @@ function App() {
                 </g>
             </g>
         </g>
-      </svg>
-      <img className="profile" src={profile1} alt="my face" height="250px" width="250px"></img>
-      <br></br>
-      <h2 style={h2_style}>
-        Welcome to my page! I am a senior studying computer science at Carnegie Mellon University.
-        I am interested in full stack software engineering and also enjoy learning about philosophy and logic.
-        My goal is to write code that helps people.
-      </h2>
-      <h2 style={h3_style}>
-        Skills: Python, C, HTML, CSS, JavaScript, React, Go, Java, SML
-      </h2>
+      </svg> */}
+      <div className="element">
+        <table style={tableStyle}>
+          <tr>
+          <td>
+            <img className="profile" src={profile2} alt="my face" width="140%"></img>
+          </td>
+          <td>
+            <h1 style={h1_style}>Hello</h1>
+            <p style={h2_style}>
+                  I'm Amy, a senior studying computer science at Carnegie Mellon University.
+                  I am interested in full stack software engineering and also enjoy learning about philosophy and logic.
+            </p>
+          </td>
+          <td></td>
+          </tr>
+        </table>
+        <h3 style={h3_style}>
+          Skills: Python, C, HTML, CSS, JavaScript, React, Go, Java, SML
+        </h3>
+      </div>
+
+
       <br></br>
       &nbsp;&nbsp;
       <a id="Experiences"></a>

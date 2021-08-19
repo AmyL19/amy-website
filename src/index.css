@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "SpaceGrotesk-Regular";
+  src: local("SpaceGrotesk-Regular"),
+   url('./components/fonts/SpaceGrotesk-Regular.ttf') format("truetype");
+  font-weight: bold;
+  }
+
+@font-face {
+  font-family: "SpaceGrotesk-Bold";
+  src: local("SpaceGrotesk-Bold"),
+    url('./components/fonts/SpaceGrotesk-Bold.ttf') format("truetype");
+  font-weight: bold;
+  }
+
+  @font-face {
+    font-family: "SpaceGrotesk-SemiBold";
+    src: local("SpaceGrotesk-SemiBold"),
+      url('./components/fonts/SpaceGrotesk-SemiBold.ttf') format("truetype");
+    font-weight: bold;
+    }
+
